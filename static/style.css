@@ -1,0 +1,164 @@
+/* General styles */
+body {
+  background-color: #ced4da;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 20px;
+}
+
+.container {
+  max-width: 1200px; /* Increased width to accommodate more content */
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #21282f;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+p {
+  color: #1b1c1c;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.card {
+  background-color: #d2d2d2;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card-header {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #21282f;
+  margin-bottom: 10px;
+}
+
+.form-control {
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid #111112;
+  background-color: #e7e9ea;
+  font-size: 1rem;
+}
+
+.form-control:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+.btn {
+  background-color: #a5a5a5;
+  color: #0b0a0a;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+  cursor: pointer;
+}
+
+textarea {
+  resize: none;
+}
+
+#results {
+  display: none;
+  background-color: #2ecc71;
+  color: white;
+  padding: 15px;
+  font-size: 1.2rem;
+  text-align: center;
+  border-radius: 8px;
+}
+
+#result-text {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+#result-text.success {
+  color: #2ecc71;
+}
+
+#result-text.error {
+  color: #e74c3c;
+}
+
+.card-footer {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 0.9rem;
+  color: #95a5a6;
+}
+
+#ast-tree svg {
+  font: 10px sans-serif;
+  width: 100%; /* Adjusted to fit the container */
+  height: 500px; /* Set a fixed height */
+}
+
+.node circle {
+  fill: rgb(53, 169, 59);
+  stroke: #fff;
+  stroke-width: 3px;
+}
+
+.node text {
+  font: 12px sans-serif;
+  color: #000;
+}
+
+.link {
+  fill: none;
+  stroke: #282727;
+  stroke-width: 2px;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 767px) {
+  .col-md-6 {
+      width: 100%;
+  }
+
+  #ast-tree svg {
+      overflow: auto;
+      height: 400px;
+      width: 1000px;
+  }
+}
+
+
+#ast-tree {
+  width: 100%; /* Set the container width */
+  height: 500px; /* Set the container height */
+  overflow-x: scroll; /* Force horizontal scrolling */
+  overflow-y: scroll; /* Force vertical scrolling */
+  border: 1px solid #ccc; /* Optional: Add a border for visibility */
+  position: relative; /* Ensure scrolling works correctly */
+}
+
+#ast-tree svg {
+  width: 1500px; /* Set a larger width to make it scrollable */
+  height: 1000px; /* Set a larger height to make it scrollable */
+}
+.home #particles-js {
+  position:absolute;
+  height: 100%;
+  width: 100%;
+}
