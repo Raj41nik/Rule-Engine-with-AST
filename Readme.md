@@ -42,7 +42,7 @@ This project is a web-based rule engine that allows users to:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/Raj41nik/Rule-Engine-with-AST.git
+git clone https://github.com/Raj41nik/task1.git
 cd Rule-Engine-with-AST-Visualization
 ```
 
@@ -175,7 +175,7 @@ pip freeze > requirements.txt
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/Raj41nik/Rule-Engine-with-AST.git
+   git clone https://github.com/Raj41nik/task1.git
    Rule-Engine-with-AST-Visualization
    ```
 
@@ -207,7 +207,7 @@ pip freeze > requirements.txt
 1. **Clone the Repository**:
 
    ```bash
-   git clonehttps://github.com/Raj41nik/Rule-Engine-with-AST.git
+   git clone https://github.com/Raj41nik/task1.git
    cd Rule-Engine-with-AST-Visualization
    ```
 
